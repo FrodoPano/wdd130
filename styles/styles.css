@@ -1,10 +1,17 @@
+:root {
+    --main-bg-color: brown;
+    border-color: var(#11aa11);
+    --box-color: blue;
+    
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--box-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--box-color);
     display: block;
     padding: 20px;
 }
@@ -30,7 +37,7 @@ aside{
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: #eee;
+    background-color: var(--main-bg-color);
     color: #333;
     text-align: center;
 }
@@ -41,6 +48,7 @@ aside img{
 }
 
 footer{
+    background-color: var(--main-bg-color);
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
